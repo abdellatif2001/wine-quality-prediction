@@ -32,4 +32,4 @@ ok = st.button("rating")
 if ok:
     x = [fx,va,ca,rs,ch,fsd,tsd,de,ph,su,al]
     r = model.predict([x])
-    st.write('### rating is',r[0],'/7)
+    st.write('### rating is',r[0],'/7')
