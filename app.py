@@ -1,7 +1,6 @@
 import pandas as pd
 import streamlit as st
 import pickle 
-import time
 
 
 slider_ph = st.empty()
