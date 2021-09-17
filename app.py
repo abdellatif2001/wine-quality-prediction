@@ -21,11 +21,13 @@ ph = st.text_input('PH')
 su = st.text_input('Sulphates')
 al = st.text_input('Alcohol')
 
+ok = st.button("rating")
+
 if color == 'Red':
     model = pickle.load(open('winequality_red_model.sav', 'rb'))
 elif color == 'White':
     model = pickle.load(open('winequality_white_model.sav', 'rb'))
-ok = st.button("rating")
+
 
 if ok:
     x = [fx,va,ca,rs,ch,fsd,tsd,de,ph,su,al]
