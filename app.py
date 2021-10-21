@@ -7,7 +7,7 @@ st.title('More wine More happiness')
 st.write('## quality of your wine')
 st.write('### enter the infos')
 
-type_wine = ['Red','White']
+type_wine = ['Red','alchohol']
 color = st.radio('color of the wine',type_wine)
 
 fx = st.text_input('Fixed acidity')
